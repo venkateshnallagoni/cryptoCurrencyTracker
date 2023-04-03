@@ -1,0 +1,43 @@
+/* Write your CSS code here */
+.list-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.currency-image {
+  height: 100px;
+  width: 200px;
+}
+.heading {
+  color: #00e7ff;
+}
+.list-items-container {
+  display: flex;
+  flex-direction: column;
+  border-color: #00e7ff;
+  border-style: solid;
+  border-width: 4px;
+  width: 70%;
+}
+.list-items-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  background-color: #092e33;
+}
+.usd-euro-container {
+  display: flex;
+  flex-direction: row;
+}
+.usd-head {
+  margin: 12px;
+}
+.euro-head {
+  margin: 12px;
+}
+.coin-type-head {
+  margin: 12px;
+}
